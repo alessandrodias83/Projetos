@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(images/background.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: '';
+    background-color: rgb(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header {
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+header img {
+    height: 45px;
+    width: 167px;
+}
+
+.container {
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.login-page h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#email {
+   height: 50px;
+   width: 100%;
+   padding-left: 15px;
+   color: #fff;
+   background-color: #333;
+   border: none;
+   box-sizing: border-box;
+   outline: none;
+   border-radius: 5px;
+   margin-bottom: 9px;
+   font-size: 16px;
+}
+
+#password {
+    height: 50px;
+   width: 100%;
+   padding-left: 15px;
+   color: rgb(255, 255, 255);
+   background-color: #333;
+   border: none;
+   box-sizing: border-box;
+   outline: none;
+   border-radius: 5px;
+   margin-bottom: 15px;
+   font-size: 16px;
+}
+
+.button-entrar button{
+    height: 40px;
+    width: 100%;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.button-entrar button:hover {
+    background-color: #fc1722;
+    cursor: pointer;
+}
+
+.option p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.button-codigo button {
+    height: 35px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.esqueceu {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 85px;
+   font-size: 16px;
+}
+
+.esqueceu:hover {
+    color:  #b3b3b3;
+    text-decoration: underline;
+}
+
+.checkbox {
+    margin-top: 20px;
+    color:  #b3b3b3;
+    margin-bottom: 15px;
+}
+
+#checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.new-user {
+    color:  #b3b3b3;
+    margin-bottom: 15px;
+}
+
+.new-user  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+   
+}
+
+.new-user  a:hover {
+    text-decoration: underline;
+}
+
+.termos {
+    font-size: 13px;
+    color:  #b3b3b3;
+}
+
+.termos a {
+    color:#0d71ac ;
+}
+
+
+footer {
+    display: block;
+    height: 200px;
+    background-color: #000000;
+
+}
+
+.duvidas {
+    color: #fff;
+    padding: 20px;
+    font-weight: 550;
+}
+
+.duvidas a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lista-servicos ul {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista-servicos a {
+    color: #fff;
+}
+
+.language {
+    color: #fff;
+    width: 90px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}

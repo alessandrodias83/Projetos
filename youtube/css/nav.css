@@ -1,4 +1,3 @@
-
 .header {
     height: 56px;
     width: 100%;
@@ -8,7 +7,7 @@
     align-items: center;
 }
 
-.logo img{
+.logo img {
     display: flex;
     height: 40px;
     margin-left: 60px;
@@ -26,10 +25,56 @@
 }
 
 .search {
-    width: 732px;
+    width: 420px;
+    height: 40px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    border-radius: 25px;
+   
+
 }
+   
 
 .search input {
-    width: 400px;
-    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+#search {
+    height: 40px;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    background-color:#F0F0F0;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+}
+
+.voice {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    left: 10px;
+    font-size: 18px;
+
+    background-color:#F0F0F0;
+
+
 }

@@ -1,0 +1,21 @@
+.topo {
+    height: 54px;
+    width: 1366px;
+    background-color: aquamarine;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 29px;
+    width: 103px;
+   
+    
+}
+
+.logo a {
+    top: 14px;
+    left: 215px;
+
+}

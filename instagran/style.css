@@ -1,21 +1,153 @@
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 935px;
+
+    background-color: rgb(138, 192, 192);
+}
+
 .topo {
     height: 54px;
     width: 1366px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+
     background-color: aquamarine;
 }
+
 .logo {
-    display: flex;
-    align-items: center;
+    left: 215px;
 }
+
 .logo img {
     height: 29px;
     width: 103px;
-   
-    
 }
 
-.logo a {
-    top: 14px;
-    left: 215px;
+ion-icon {
+    font-size: 22px;
+    padding: 20px;
+}
 
+
+
+.stories {
+    width: 614px;
+    height: 118px;
+    margin-top: 34px;
+    margin-left: 215px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 24px;
+
+    background-color: blueviolet;
+
+}
+
+.icon-stories {
+    display: flex;
+    margin-left: 23px;
+}
+
+.stories img {
+    width: 56px;
+    height: 56px;
+    padding: 6px;
+}
+
+.user-stories {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 14.06px;
+    font-stretch: extra-condensed;
+    color: #262626;
+}
+
+.user-post {
+    width: 614px;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DBDBDB;
+    margin-left: 215px;
+    border-radius: 3px;
+}
+
+.user-post a {
+    text-decoration: none;
+    color: #262626;
+}
+.user-post a img {
+    width: 612px;
+    height: 612px;
+}
+
+#user {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+.user-id {
+    display: flex;
+    align-items: center;
+    height: 61px;
+    margin-left: 17px;
+}
+
+.user-id p {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    line-height: 16.41px;
+}
+
+.post {
+    margin-bottom: 60px;
+    background-color: burlywood;
+}
+
+.icon-post {
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+
+}
+
+.react {
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.save {
+    margin-top: -10px;
+    margin-right: 17.62px;
+}
+
+.siderbar {
+    width: 293px;
+    display: flex;
+
+    margin-left: 858px;
+
+    background-color: blue;
 }

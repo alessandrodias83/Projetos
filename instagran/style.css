@@ -7,15 +7,17 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+   
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 935px;
-
     background-color: rgb(138, 192, 192);
 }
+
+
 
 .topo {
     height: 54px;
@@ -23,13 +25,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #ffffff;
     border-bottom: 1px solid #DBDBDB;
-
-    background-color: aquamarine;
+    
 }
 
 .logo {
-    left: 215px;
 }
 
 .logo img {
@@ -41,7 +42,6 @@ ion-icon {
     font-size: 22px;
     padding: 20px;
 }
-
 
 
 .stories {

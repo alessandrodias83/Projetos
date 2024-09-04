@@ -32,7 +32,6 @@ body {
     height: 29px;
     width: 103px;
 
-
 }
 
 .icon-topo {
@@ -53,7 +52,7 @@ ion-icon {
 
 .stories {
     width: 614px;
-    max-height: 118px;
+    height: 118px;
     margin-top: 88px;
     margin-left: 215px;
     border: 1px solid #DBDBDB;
@@ -72,12 +71,24 @@ ion-icon {
     margin-left: 23px;
 }
 
+.icon-stories  p {
+    margin-top: 1px;
+    text-align: center;
+
+}
 .stories img {
     width: 56px;
     height: 56px;
-    padding: 6px;
+   
 }
 
+.stories-content {
+    margin-left: 19px;
+}
+
+#stories-initial {
+    margin-left: 20px;
+}
 .user-stories {
     font-size: 12px;
     font-weight: 400;
@@ -154,22 +165,69 @@ ion-icon {
 width: 293px;
 margin-left: 85px;
 margin-top: 111px;
+display: flex;
+flex-direction: column;
 }
 
 .catana a{
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
-
+    text-decoration: none;   
 }
 
 .catana h1 {
     font-size: 14px;
     color: #000000;
-   
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+.catana p {
+    color: #9b9b9b;
+    margin-left: 17px;
+    margin-top: 3px;
 }
 .catana img {
     height: 56px;
     width: 56px;
     border-radius: 28px;
 }
+
+.text-siderbar {
+    margin-top: 24px;
+}
+
+.text-siderbar h1 {
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sugestao a{
+    display: flex;
+    text-decoration: none; 
+    text-align: center;
+  
+}
+
+.sugestao img {
+    height: 32px;
+    width: 32px;
+    border-radius: 28px;
+    margin-top: 17px;
+}
+
+.sugestao h1 {
+    font-size: 14px;
+    color: #000000;
+    margin-left: 17px;
+    margin-top: 25px;
+   
+}
+
+.sugestao p {
+    
+}
+
+
+

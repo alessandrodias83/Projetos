@@ -11,6 +11,8 @@ body {
 }
 
 .container {
+    width: 100%;
+    height: 100vh;
 
 }
 
@@ -25,6 +27,11 @@ body {
     justify-content: center;
     border-bottom: 1px solid #DBDBDB;
     margin-bottom: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 
 }
 
@@ -37,10 +44,17 @@ body {
 
 ion-icon {}
 
+main {
+    position: relative;
+}
+.main {
+    position: absolute;
+}
 
 .stories {
     overflow: hidden;
     border-bottom: 1px solid #DBDBDB;
+    height: calc(100vh - 54px);
 
 }
 
@@ -128,8 +142,15 @@ ion-icon {}
 
 .barra-inferior {
     height: 54px;
+    max-width: 612px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 22px;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }

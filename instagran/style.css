@@ -3,20 +3,13 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-   
+    background-color: #fafafa;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
     width: 935px;
-    background-color: rgb(138, 192, 192);
 }
-
 
 
 .topo {
@@ -27,15 +20,23 @@ body {
     align-items: center;
     background-color: #ffffff;
     border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
     
-}
-
-.logo {
 }
 
 .logo img {
     height: 29px;
     width: 103px;
+
+
+}
+
+.icon-topo {
+ 
 }
 
 ion-icon {
@@ -43,11 +44,17 @@ ion-icon {
     padding: 20px;
 }
 
+.thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .stories {
     width: 614px;
-    height: 118px;
-    margin-top: 34px;
+    max-height: 118px;
+    margin-top: 88px;
     margin-left: 215px;
     border: 1px solid #DBDBDB;
     display: flex;
@@ -56,8 +63,7 @@ ion-icon {
     overflow: hidden;
     border-radius: 3px;
     margin-bottom: 24px;
-
-    background-color: blueviolet;
+    background-color: #ffffff;
 
 }
 
@@ -89,6 +95,7 @@ ion-icon {
     border: 1px solid #DBDBDB;
     margin-left: 215px;
     border-radius: 3px;
+    background-color: #ffffff;
 }
 
 .user-post a {
@@ -123,7 +130,7 @@ ion-icon {
 
 .post {
     margin-bottom: 60px;
-    background-color: burlywood;
+
 }
 
 .icon-post {
@@ -144,10 +151,25 @@ ion-icon {
 }
 
 .siderbar {
-    width: 293px;
+width: 293px;
+margin-left: 85px;
+margin-top: 111px;
+}
+
+.catana a{
     display: flex;
+    justify-content: space-between;
+    text-decoration: none;
 
-    margin-left: 858px;
+}
 
-    background-color: blue;
+.catana h1 {
+    font-size: 14px;
+    color: #000000;
+   
+}
+.catana img {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
 }

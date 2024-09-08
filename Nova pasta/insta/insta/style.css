@@ -17,14 +17,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /*Colocar borda aqui*/
+    border: 1px solid #dbdbdb;
+    z-index: 2;
 }
 
 .logo img {
     width: 103px;
     height: 29px;
+    margin-left: 120px;
 }
-
+.login {
+    margin-right: 120px;
+}
 .login a {
     text-decoration: none;
     color: #262626;
@@ -56,6 +60,13 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+}
+
+.box-stories {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
 }
 
 .story-user {
@@ -128,8 +139,8 @@ body {
 
 
 .photo-post img {
-    width: 612px;
-    height: 612px;
+    max-width: 612px;
+    max-height: 612px;
 }
 
 .following {
@@ -252,7 +263,22 @@ body {
 }
 
 @media (max-width: 915px) {
+    .barra-superior {
+        justify-content: space-between;
+        padding: 0 26px;
+    }
+    .logo img {
+        margin-left: 0;
+    }
 
+    .login {
+        margin-right: 60px;
+    }
+
+    .login ion-icon {
+        padding: 0 10px;
+    }
+   
     .stories {
         margin-top: 54px;
     }
@@ -264,6 +290,17 @@ body {
 }
 
 @media (max-width: 614px) {
+
+    .barra-superior {
+        justify-content: center;
+    }
+    .logo img  {
+        margin: auto;
+    }
+
+    .login {
+        display: none;
+    }
     .stories {
         width: 100%;
         margin: 0;

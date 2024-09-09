@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  display: flex;
+    display: flex;
     width: 935px;
     margin: auto;
 }
@@ -64,7 +64,7 @@ main {
 .icon-stories {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     margin-left: 90px;
 }
 
@@ -98,6 +98,7 @@ main {
     text-decoration: none;
     color: #262626;
 }
+
 .user-post a img {
     width: 612px;
     height: 612px;
@@ -147,16 +148,16 @@ main {
 }
 
 .siderbar {
-width: 293px;
-margin-left: 28px;
-margin-top: 111px;
-display: flex;
-flex-direction: column;
+    width: 293px;
+    margin-left: 28px;
+    margin-top: 111px;
+    display: flex;
+    flex-direction: column;
 }
 
-.catana a{
+.catana a {
     display: flex;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 .catana h1 {
@@ -171,6 +172,7 @@ flex-direction: column;
     margin-left: 17px;
     margin-top: 3px;
 }
+
 .catana img {
     height: 56px;
     width: 56px;
@@ -188,11 +190,11 @@ flex-direction: column;
 }
 
 
-.sugestao a{
+.sugestao a {
     display: flex;
-    text-decoration: none; 
+    text-decoration: none;
     text-align: center;
-  
+
 }
 
 .sugestao img {
@@ -215,6 +217,7 @@ flex-direction: column;
     margin-top: 25px;
     margin-left: auto;
 }
+
 .sugestao h2 {
     font-size: 12px;
     color: #139EF2;
@@ -240,3 +243,34 @@ flex-direction: column;
     margin-top: 18px;
 }
 
+@media (max-width: 935px) {
+    .siderbar {
+        display: none;
+    }
+
+    .stories {
+        margin-left: auto;
+    }
+
+
+    .post {
+       margin-left: 144px;
+    }
+}
+
+@media (max-width: 614px) {
+    .stories {
+        width: 100%;
+        margin-top: 54px;
+        background-color: #fafafa;
+    }
+    .user-post {
+        width: 100%;
+        height: 717px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #DBDBDB;
+        border-radius: 3px;
+        background-color: #ffffff;
+    }
+}

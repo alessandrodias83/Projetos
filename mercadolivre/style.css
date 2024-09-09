@@ -1,0 +1,80 @@
+:root {
+    font-family: "Roboto", sans serife;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+    background-color: #FFE600;
+}
+
+.superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topo a img {
+    height: 35px;
+    padding: 10px;
+
+}
+
+.pesquisa {
+    height: 35px;
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 1px solid #bebebe;
+    box-shadow: 1px 1px 3px rgba (0, 0, 0, 0,385);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 3px;
+}
+
+.pesquisa ion-icon {
+    margin-left: 5px;
+    font-size: 18px;
+    color: #bebebe;
+    padding: 0 8px;
+}
+
+#pesquisa {
+    height: 30px;
+    width: 460px;
+    border: none;
+    outline: none;
+    border-right: 1px solid #e0dddd;
+    margin-left: 15px;
+    font-size: 14px;
+
+}
+
+.meli a img{
+    height: 35px;
+}
+
+.inferior {
+    background-color: aqua;
+}
+
+main {
+    height: 100vh;
+    max-width: 1250px;
+
+
+    background-color: blanchedalmond;
+}
+
+
+footer {
+    height: 54px;
+    width: 100vw;
+
+    background-color: beige;
+}

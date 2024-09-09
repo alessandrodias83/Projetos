@@ -1,8 +1,10 @@
+@import url(font/Harabara\ Mais\ Demo.otf);
 :root {
-    font-family: "Roboto", sans serife;
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -60,15 +62,112 @@ header {
 }
 
 .inferior {
-    background-color: aqua;
+ 
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button {
+    display: flex;
+    background-color: #FFE600;
+    border: none;
+}
+
+button ion-icon {
+    font-size: 22px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu ul li a{
+    font-size: 12px;
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #181712;
+
+}
+
+.user {
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.user a {
+    font-size: 12px;
+    list-style: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #181712;
+    
+}
+
+.user ion-icon {
+    margin-left: 20px;
+    font-size: 22px;
+}
 main {
     height: 100vh;
     max-width: 1250px;
 
-
     background-color: blanchedalmond;
+}
+
+.propaganda {
+    background-color: #f3efef;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box i {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.box p {
+ font-size: 12px;
+ text-align: center;
+}
+
+.box button {
+    background-color: #C9DEF9;
+    color: #3483FA;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
 }
 
 

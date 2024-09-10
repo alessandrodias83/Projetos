@@ -124,9 +124,9 @@ button ion-icon {
 main {
     height: 100vh;
     max-width: 100vw;
-
-    background-color: blanchedalmond;
 }
+
+
 
 .propaganda {
     background-color: #f3efef;
@@ -135,6 +135,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 
 .box {
     background-color: #fff;
@@ -185,10 +186,12 @@ main {
 
 .ofertas {
     max-width: 100vw;
-    height: 550px;
+    max-height: 450px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
+    margin-top: 60px;
+    
 }
 
 .oferta-do-dia {
@@ -198,34 +201,106 @@ main {
     padding: 20px;
     display: flex;
     flex-direction: column;
-   
+    justify-content: center;
+
+    border: 1px solid #181712;
+    border-radius: 10px;
 }
 
 .oferta-do-dia h1 {
     font-size: 20px;
 }
 .oferta-do-dia img {
-    height: 220px;
+   height: 260px;
 }
 
 .oferta-do-dia h4 {
     font-weight: 200;
     font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+.oferta-do-dia p {
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 .preco {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
 }
-.preco h2 {
+
+.frete,
+.divide {
+    font-size: 14px;
+}
+
+.ofertas-sempre {
+    height: 480px;
+    width: 900px;
+    margin-left: 20px;
+    border: 1px solid #181712;
+    border-radius: 10px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
 
+.ofertas-txt {
+    display: flex;
+    align-items: center;
+}
+
+.ofertas-txt h1 {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.ofertas-txt p {
+    font-size: 14px;
+}
+.selecao {
+    display: flex;
+}
+.produtos {
+    height: 380px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.produtos img {
+    height: 250px;
+    width: 250px;
+}
+
+
+.produtos h4 {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.produtos p {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.logo-meli {
+    background: linear-gradient(45deg #5C238D; #A91192);
+}
 footer {
     height: 54px;
     width: 100vw;
 
     background-color: beige;
 }
+
+/*
+#5C238D
+#A91192*/
